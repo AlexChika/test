@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+}
+body {
+  background: rgb(231, 236, 241);
+  background: rgb(0, 0, 0);
+  min-height: 100vh;
+  color: white;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+nav {
+  min-height: 60vh;
+  background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 1),
+    transparent 60%
+  );
+  background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    transparent 60%
+  );
+}
+nav div {
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div ul {
+  display: flex;
+  flex: 0.4;
+  justify-content: space-between;
+}
+nav div ul li,
+span {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  background-color: rgba(24, 24, 24, 0.7);
+  /* color: black; */
+}
+h1 {
+  margin-top: 10px;
+  width: max-content;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(24, 24, 24, 0.7);
+}
+
+/*
+ ..............   Light Theme  ............
+ color = black
+ prim-bg =   background: rgb(231, 236, 241);
+sec bg =     background-color: rgba(255, 255, 255, 0.5);
+
+ ..............   Dark Theme  ............
+ color = white
+ prim bg = background: rgb(0, 0, 0);
+ sec bg =  background-color: rgba(24, 24, 24, 0.7);
+   background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3),
+    transparent 60%
+  );
+*/
